@@ -6,4 +6,13 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="coverlet.collector" Version="10.0.0">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Dapper" Version="2.1.72" />
+      <PackageReference Include="DapperExtensions.StrongNameReference" Version="1.10.0" />
+    </ItemGroup>
+
 </Project>

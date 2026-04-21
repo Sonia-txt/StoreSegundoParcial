@@ -8,9 +8,14 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="coverlet.collector" Version="10.0.0">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
       <PackageReference Include="Dapper" Version="2.1.72" />
-      <PackageReference Include="Dapper.Contrib" Version="2.0.78" />
-      <PackageReference Include="MySqlConnector" Version="2.5.0" />
+      <PackageReference Include="DapperExtensions.StrongNameReference" Version="1.10.0" />
+      <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.7" />
     </ItemGroup>
 
 </Project>
