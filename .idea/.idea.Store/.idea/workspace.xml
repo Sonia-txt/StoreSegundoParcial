@@ -7,14 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9e5c87e-9ce3-40d4-8a1c-55a20101fffc" name="Changes" comment="creacion de directories y clases">
-      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/CustomerRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/Interface/ISaleDetailRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/Interface/ISaleRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/ProductRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/SaleDetailRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/SaleRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/UserRepository.cs" afterDir="false" />
+    <list default="true" id="a9e5c87e-9ce3-40d4-8a1c-55a20101fffc" name="Changes" comment="descarga de dapper">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +51,14 @@
     <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/SaleDetailRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/SaleRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/UserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -146,7 +147,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776804997404</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=" creacion de modelos">
+      <option name="closed" value="true" />
+      <created>1776806534482</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776806534482</updated>
+    </task>
+    <task id="LOCAL-00006" summary="descarga de dapper">
+      <option name="closed" value="true" />
+      <created>1776807878340</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1776807878340</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +191,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creación de carpetas" />
     <MESSAGE value="creacion de directories y clases" />
-    <option name="LAST_COMMIT_MESSAGE" value="creacion de directories y clases" />
+    <MESSAGE value=" creacion de modelos" />
+    <MESSAGE value="descarga de dapper" />
+    <option name="LAST_COMMIT_MESSAGE" value="descarga de dapper" />
   </component>
 </project>
