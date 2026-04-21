@@ -7,9 +7,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9e5c87e-9ce3-40d4-8a1c-55a20101fffc" name="Changes" comment="Creación de carpetas">
-      <change beforePath="$PROJECT_DIR$/Store.Api/Models/Customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Api/Models/Customer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Store.Api/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Api/Models/User.cs" afterDir="false" />
+    <list default="true" id="a9e5c87e-9ce3-40d4-8a1c-55a20101fffc" name="Changes" comment="creacion de directories y clases">
+      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/CustomerRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/Interface/ISaleDetailRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/Interface/ISaleRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/ProductRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/SaleDetailRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/SaleRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/UserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +48,16 @@
     <setting file="file://$PROJECT_DIR$/Store.Api/Models/Sale.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Store.Api/Models/SaleDetail.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Store.Api/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="McpProjectServerCommands">
-    <commands />
-    <urls />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/CustomerRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/Interface/ICustomerRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/Interface/IProductRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/Interface/ISaleDetailRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/Interface/ISaleRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/Interface/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/ProductRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/SaleDetailRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/SaleRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/UserRepository.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -56,21 +68,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Store.Api" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -101,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1776802566039</updated>
-      <workItem from="1776802568805" duration="2166000" />
+      <workItem from="1776802568805" duration="3015000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de carpetas">
       <option name="closed" value="true" />
@@ -119,7 +130,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776803230902</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="creacion de directories y clases">
+      <option name="closed" value="true" />
+      <created>1776804832382</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776804832382</updated>
+    </task>
+    <task id="LOCAL-00004" summary="creacion de directories y clases">
+      <option name="closed" value="true" />
+      <created>1776804997404</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776804997404</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +173,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creación de carpetas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creación de carpetas" />
+    <MESSAGE value="creacion de directories y clases" />
+    <option name="LAST_COMMIT_MESSAGE" value="creacion de directories y clases" />
   </component>
 </project>
