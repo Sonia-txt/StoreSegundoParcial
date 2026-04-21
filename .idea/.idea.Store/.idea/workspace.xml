@@ -7,19 +7,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9e5c87e-9ce3-40d4-8a1c-55a20101fffc" name="Changes" comment="Creación de carpetas">
-      <change afterPath="$PROJECT_DIR$/Store.Api/Controllers/CustomerController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Controllers/ProductController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Controllers/SaleController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Controllers/SaleDetailController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Controllers/UserController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Models/Customer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Models/Product.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Models/Sale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Models/SaleDetail.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Models/User.cs" afterDir="false" />
+    <list default="true" id="a9e5c87e-9ce3-40d4-8a1c-55a20101fffc" name="Changes" comment="creacion de directories y clases">
+      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/CustomerRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/Interface/ISaleDetailRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/Interface/ISaleRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/ProductRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/SaleDetailRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/SaleRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/UserRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Store.Api/Store.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Api/Store.Api.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +48,16 @@
     <setting file="file://$PROJECT_DIR$/Store.Api/Models/Sale.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Store.Api/Models/SaleDetail.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Store.Api/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/CustomerRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/Interface/ICustomerRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/Interface/IProductRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/Interface/ISaleDetailRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/Interface/ISaleRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/Interface/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/ProductRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/SaleDetailRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/SaleRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/UserRepository.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
@@ -106,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1776802566039</updated>
-      <workItem from="1776802568805" duration="2166000" />
+      <workItem from="1776802568805" duration="3015000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de carpetas">
       <option name="closed" value="true" />
@@ -124,7 +130,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776803230902</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="creacion de directories y clases">
+      <option name="closed" value="true" />
+      <created>1776804832382</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776804832382</updated>
+    </task>
+    <task id="LOCAL-00004" summary="creacion de directories y clases">
+      <option name="closed" value="true" />
+      <created>1776804997404</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776804997404</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +173,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creación de carpetas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creación de carpetas" />
+    <MESSAGE value="creacion de directories y clases" />
+    <option name="LAST_COMMIT_MESSAGE" value="creacion de directories y clases" />
   </component>
 </project>
