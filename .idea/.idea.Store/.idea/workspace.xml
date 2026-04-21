@@ -7,14 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9e5c87e-9ce3-40d4-8a1c-55a20101fffc" name="Changes" comment="Crear mas DataAccess">
-      <change afterPath="$PROJECT_DIR$/Store.Core/Entities/Customer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Core/Entities/EntityBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Core/Entities/Product.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Core/Entities/Sale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Core/Entities/SaleDetail.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Core/Entities/User.cs" afterDir="false" />
+    <list default="true" id="a9e5c87e-9ce3-40d4-8a1c-55a20101fffc" name="Changes" comment="Conexion a DB">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.Api/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Api/Controllers/ProductController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.Api/Controllers/SaleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Api/Controllers/SaleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.Api/Controllers/SaleDetailController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Api/Controllers/SaleDetailController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.Api/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Api/Controllers/UserController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.Api/Store.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Api/Store.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.Tests/Store.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Tests/Store.Tests.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +59,10 @@
     <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/SaleDetailRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/SaleRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/UserRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Store.Core/Entities/Customer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Store.Core/Entities/EntityBase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Store.Core/Entities/Product.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Store.Core/Entities/Sale.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Store.Core/Entities/SaleDetail.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Store.Core/Entities/User.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Store.Core/Enums/SaleStatus.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -76,21 +73,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Store.Api" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -121,7 +118,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1776802566039</updated>
-      <workItem from="1776802568805" duration="8608000" />
+      <workItem from="1776802568805" duration="6025000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de carpetas">
       <option name="closed" value="true" />
@@ -171,15 +168,7 @@
       <option name="project" value="LOCAL" />
       <updated>1776808335094</updated>
     </task>
-    <task id="LOCAL-00007" summary="Crear mas DataAccess">
-      <option name="closed" value="true" />
-      <created>1776808827247</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1776808827247</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +198,6 @@
     <MESSAGE value="creacion de directories y clases" />
     <MESSAGE value="crear en interface" />
     <MESSAGE value="Conexion a DB" />
-    <MESSAGE value="Crear mas DataAccess" />
-    <option name="LAST_COMMIT_MESSAGE" value="Crear mas DataAccess" />
+    <option name="LAST_COMMIT_MESSAGE" value="Conexion a DB" />
   </component>
 </project>
