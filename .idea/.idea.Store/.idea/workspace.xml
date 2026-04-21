@@ -7,15 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9e5c87e-9ce3-40d4-8a1c-55a20101fffc" name="Changes" comment="creacion de directories y clases">
-      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/CustomerRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/Interface/ISaleDetailRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/Interface/ISaleRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/ProductRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/SaleDetailRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/SaleRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Repositories/UserRepository.cs" afterDir="false" />
+    <list default="true" id="a9e5c87e-9ce3-40d4-8a1c-55a20101fffc" name="Changes" comment="crear en interface">
+      <change afterPath="$PROJECT_DIR$/Store.Api/DataAccess/DbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store.Api/DataAccess/Interfaces/IDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.Api/Store.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Api/Store.Api.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +39,8 @@
     <setting file="file://$PROJECT_DIR$/Store.Api/Controllers/SaleController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Store.Api/Controllers/SaleDetailController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Store.Api/Controllers/UserController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/DataAccess/DbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/DataAccess/Interfaces/IDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Store.Api/Models/Customer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Store.Api/Models/Product.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Store.Api/Models/Sale.cs" root0="FORCE_HIGHLIGHTING" />
@@ -112,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1776802566039</updated>
-      <workItem from="1776802568805" duration="3015000" />
+      <workItem from="1776802568805" duration="5642000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de carpetas">
       <option name="closed" value="true" />
@@ -146,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776804997404</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="crear en interface">
+      <option name="closed" value="true" />
+      <created>1776805645061</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776805645061</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +180,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creación de carpetas" />
     <MESSAGE value="creacion de directories y clases" />
-    <option name="LAST_COMMIT_MESSAGE" value="creacion de directories y clases" />
+    <MESSAGE value="crear en interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="crear en interface" />
   </component>
 </project>
