@@ -7,11 +7,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9e5c87e-9ce3-40d4-8a1c-55a20101fffc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Store/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Store/.idea/projectSettingsUpdater.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Store/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="a9e5c87e-9ce3-40d4-8a1c-55a20101fffc" name="Changes" comment="Creación de carpetas">
+      <change afterPath="$PROJECT_DIR$/Store.Api/Controllers/CustomerController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store.Api/Controllers/ProductController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store.Api/Controllers/SaleController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store.Api/Controllers/SaleDetailController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store.Api/Controllers/UserController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store.Api/Models/Customer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store.Api/Models/Product.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store.Api/Models/Sale.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store.Api/Models/SaleDetail.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store.Api/Models/User.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.Api/Store.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Api/Store.Api.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,14 +29,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="McpProjectServerCommands">
-    <commands />
-    <urls />
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "maribel798"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Sonia-txt/StoreSegundoParcial.git",
+    "accountId": "5ef506e6-0f34-42d5-a50a-1f327e6d0606"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Store.Api/Controllers/CustomerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Controllers/ProductController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Controllers/SaleController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Controllers/SaleDetailController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Controllers/UserController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Models/Customer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Models/Product.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Models/Sale.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Models/SaleDetail.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
-}</component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="3CgM3JuspxnZONVuAlBUz9s8yTk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,7 +73,6 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -79,14 +106,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1776802566039</updated>
-      <workItem from="1776802568805" duration="382000" />
+      <workItem from="1776802568805" duration="2166000" />
     </task>
+    <task id="LOCAL-00001" summary="Creación de carpetas">
+      <option name="closed" value="true" />
+      <created>1776803006501</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1776803006501</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Creación de carpetas">
+      <option name="closed" value="true" />
+      <created>1776803230902</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776803230902</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -104,5 +148,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creación de carpetas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creación de carpetas" />
   </component>
 </project>
