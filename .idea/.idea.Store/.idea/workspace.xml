@@ -7,8 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9e5c87e-9ce3-40d4-8a1c-55a20101fffc" name="Changes" comment="descarga de dapper">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a9e5c87e-9ce3-40d4-8a1c-55a20101fffc" name="Changes" comment="Conexion a DB">
+      <change beforePath="$PROJECT_DIR$/Store.Api/DataAccess/DbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Api/DataAccess/DbContext.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,8 @@
     <setting file="file://$PROJECT_DIR$/Store.Api/Controllers/SaleController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Store.Api/Controllers/SaleDetailController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Store.Api/Controllers/UserController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/DataAccess/DbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Api/DataAccess/Interfaces/IDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Store.Api/Models/Customer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Store.Api/Models/Product.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Store.Api/Models/Sale.cs" root0="FORCE_HIGHLIGHTING" />
@@ -52,14 +54,6 @@
     <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/SaleRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/UserRepository.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
-  <component name="McpProjectServerCommands">
-    <commands />
-    <urls />
-  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -69,20 +63,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Store.Api" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -113,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1776802566039</updated>
-      <workItem from="1776802568805" duration="3015000" />
+      <workItem from="1776802568805" duration="6025000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de carpetas">
       <option name="closed" value="true" />
@@ -147,21 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1776804997404</updated>
     </task>
-    <task id="LOCAL-00005" summary=" creacion de modelos">
+    <task id="LOCAL-00005" summary="crear en interface">
       <option name="closed" value="true" />
-      <created>1776806534482</created>
+      <created>1776805645061</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1776806534482</updated>
+      <updated>1776805645061</updated>
     </task>
-    <task id="LOCAL-00006" summary="descarga de dapper">
+    <task id="LOCAL-00006" summary="Conexion a DB">
       <option name="closed" value="true" />
-      <created>1776807878340</created>
+      <created>1776808335094</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1776807878340</updated>
+      <updated>1776808335094</updated>
     </task>
     <option name="localTasksCounter" value="7" />
     <servers />
@@ -191,8 +186,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creación de carpetas" />
     <MESSAGE value="creacion de directories y clases" />
-    <MESSAGE value=" creacion de modelos" />
-    <MESSAGE value="descarga de dapper" />
-    <option name="LAST_COMMIT_MESSAGE" value="descarga de dapper" />
+    <MESSAGE value="crear en interface" />
+    <MESSAGE value="Conexion a DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="Conexion a DB" />
   </component>
 </project>
