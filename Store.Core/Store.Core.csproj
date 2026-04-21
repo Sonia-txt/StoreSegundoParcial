@@ -13,6 +13,8 @@
       </PackageReference>
       <PackageReference Include="Dapper" Version="2.1.72" />
       <PackageReference Include="DapperExtensions.StrongNameReference" Version="1.10.0" />
+      <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.0" />
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.4.0" />
     </ItemGroup>
 
 </Project>
