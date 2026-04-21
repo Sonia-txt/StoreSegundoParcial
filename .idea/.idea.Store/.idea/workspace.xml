@@ -7,8 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9e5c87e-9ce3-40d4-8a1c-55a20101fffc" name="Changes" comment="Conexion a DB">
+    <list default="true" id="a9e5c87e-9ce3-40d4-8a1c-55a20101fffc" name="Changes" comment="crear la base para la route">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.Api/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Api/Controllers/ProductController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.Api/Repositories/ProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Api/Repositories/ProductRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +55,13 @@
     <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/SaleDetailRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/SaleRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Store.Api/Repositories/UserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Core/Entities/Customer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Core/Entities/EntityBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Core/Entities/Product.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Core/Entities/Sale.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Core/Entities/SaleDetail.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Core/Entities/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Store.Core/Http/Response.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -162,7 +171,63 @@
       <option name="project" value="LOCAL" />
       <updated>1776808335094</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Crear Entities">
+      <option name="closed" value="true" />
+      <created>1776811629468</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1776811629468</updated>
+    </task>
+    <task id="LOCAL-00008" summary="crear metodos de customer">
+      <option name="closed" value="true" />
+      <created>1776815008153</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1776815008154</updated>
+    </task>
+    <task id="LOCAL-00009" summary="crear metodos de products">
+      <option name="closed" value="true" />
+      <created>1776815038002</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1776815038002</updated>
+    </task>
+    <task id="LOCAL-00010" summary="crear metodos de salesDetails">
+      <option name="closed" value="true" />
+      <created>1776815077366</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1776815077366</updated>
+    </task>
+    <task id="LOCAL-00011" summary="crear metodos de sales y users">
+      <option name="closed" value="true" />
+      <created>1776815133263</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1776815133263</updated>
+    </task>
+    <task id="LOCAL-00012" summary="borrar enums">
+      <option name="closed" value="true" />
+      <created>1776815162256</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1776815162256</updated>
+    </task>
+    <task id="LOCAL-00013" summary="crear la base para la route">
+      <option name="closed" value="true" />
+      <created>1776815207605</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1776815207605</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +257,13 @@
     <MESSAGE value="creacion de directories y clases" />
     <MESSAGE value="crear en interface" />
     <MESSAGE value="Conexion a DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="Conexion a DB" />
+    <MESSAGE value="Crear Entities" />
+    <MESSAGE value="crear metodos de customer" />
+    <MESSAGE value="crear metodos de products" />
+    <MESSAGE value="crear metodos de salesDetails" />
+    <MESSAGE value="crear metodos de sales y users" />
+    <MESSAGE value="borrar enums" />
+    <MESSAGE value="crear la base para la route" />
+    <option name="LAST_COMMIT_MESSAGE" value="crear la base para la route" />
   </component>
 </project>

@@ -1,6 +1,8 @@
+
+
 namespace Store.Api.Repositories;
 
-public class ProductRepository
+public class ProductRepository 
 {
     
 }
