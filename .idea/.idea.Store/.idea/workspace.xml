@@ -9,12 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a9e5c87e-9ce3-40d4-8a1c-55a20101fffc" name="Changes" comment="Conexion a DB">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Store.Api/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Api/Controllers/ProductController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Store.Api/Controllers/SaleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Api/Controllers/SaleController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Store.Api/Controllers/SaleDetailController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Api/Controllers/SaleDetailController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Store.Api/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Api/Controllers/UserController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Store.Api/Store.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Api/Store.Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Store.Tests/Store.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Tests/Store.Tests.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
