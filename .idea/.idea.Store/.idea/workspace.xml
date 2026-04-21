@@ -8,18 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9e5c87e-9ce3-40d4-8a1c-55a20101fffc" name="Changes" comment="Creación de carpetas">
-      <change afterPath="$PROJECT_DIR$/Store.Api/Controllers/CustomerController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Controllers/ProductController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Controllers/SaleController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Controllers/SaleDetailController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Controllers/UserController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Models/Customer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Models/Product.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Models/Sale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Models/SaleDetail.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Store.Api/Models/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Store.Api/Store.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Api/Store.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.Api/Models/Customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Api/Models/Customer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.Api/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Api/Models/User.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +43,10 @@
     <setting file="file://$PROJECT_DIR$/Store.Api/Models/SaleDetail.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Store.Api/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -62,20 +56,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Store.Api" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
