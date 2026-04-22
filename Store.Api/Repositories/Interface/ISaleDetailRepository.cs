@@ -2,7 +2,7 @@ namespace Store.Api.Repositories.Interface;
 using Store.Core.Entities;
 public interface ISaleDetailRepository
 {
-    //metodo para guardar las categorias del producto
+    //metodo para guardar las categorias del 
     Task<SaleDetail> SaveAsync(SaleDetail saleDetail);
     //metodo para actualizar las categorias del producto
     Task<SaleDetail> UpdateAsync(SaleDetail saleDetail);

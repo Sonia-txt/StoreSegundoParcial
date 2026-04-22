@@ -3,7 +3,7 @@ using Store.Core.Entities;
 
 public interface IProductRepository
 {
-    //metodo para guardar las categorias del producto
+    //metodo para guardar las categorias del 
     Task<Product> SaveAsync(Product product);
     //metodo para actualizar las categorias del producto
     Task<Product> UpdateAsync(Product product);

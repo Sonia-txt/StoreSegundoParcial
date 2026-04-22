@@ -2,7 +2,7 @@ namespace Store.Api.Repositories.Interface;
 using Store.Core.Entities;
 public interface IUserRepository
 {
-    //metodo para guardar las categorias del producto
+    //metodo para guardar las categorias 
     Task<User> SaveAsync(User user);
     //metodo para actualizar las categorias del producto
     Task<User> UpdateAsync(User user);

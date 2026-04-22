@@ -2,9 +2,9 @@ namespace Store.Api.Repositories.Interface;
 using Store.Core.Entities;
 public interface ICustomerRepository
 {
-    //metodo para guardar las categorias del producto
+    //metodo para guardar las custemer
     Task<Customer> SaveAsync(Customer customer);
-    //metodo para actualizar las categorias del producto
+    //metodo para actualizar las custemer
     Task<Customer> UpdateAsync(Customer customer);
     //metodo para retornat una lidta de categorias de producto
     Task<List<Customer>> GetAllAsync();
